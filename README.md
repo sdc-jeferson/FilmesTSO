@@ -1,10 +1,10 @@
 # 🍿 FilmesTSO
 
-PrimeFlix é um aplicativo web simples para visualização de informações sobre filmes, salvar filmes favoritos e assistir a trailers.
+FilmesTSO é um aplicativo web simples para visualização de informações sobre filmes, salvar filmes favoritos e assistir a trailers.
 
 ## 🌐 Deploy
 
-O PrimeFlix está hospedado e pode ser acessado online. Você pode experimentar a versão online em [PrimeFlix](https://prime-flix-azure.vercel.app/).
+O FilmesTSO está hospedado e pode ser acessado online. Você pode experimentar a versão online em [FilmesTSO](https://prime-flix-azure.vercel.app/).
 
 ## 📽️ Funcionalidades
 
@@ -26,13 +26,13 @@ O PrimeFlix está hospedado e pode ser acessado online. Você pode experimentar 
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/sdc-jeferson/primeflix.git
+git clone https://github.com/sdc-jeferson/FilmesTSO.git
 ```
 
 2. Instale as dependências:
 
 ```
-cd primeflix
+cd FilmesTSO
 npm install
 
 #or
