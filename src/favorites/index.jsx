@@ -17,6 +17,12 @@ function Favorites() {
     const itemMovie = JSON.parse(itemsLocalStorage);
 
     const indiceMovie = itemMovie.filter((item) => item.id === movie);
+
+    if (itemMovie.length === 0) {
+      alert("Vazio, adicione Filmes !");
+      return;
+    }
+
     itemMovie.splice(indiceMovie, 1);
     localStorage.setItem("@filmetso", JSON.stringify(itemMovie));
     setMovie(itemMovie);
@@ -25,6 +31,9 @@ function Favorites() {
   return (
     <>
       <div id="list-movies" className="mt-5 px-5 w-full max-w-[1200px] mx-auto">
+        <h1 className="text-center text-4xl font font-bold mb-4">
+          Minha Lista
+        </h1>
         {movie.map((item) => {
           return (
             <section key={item.id} className="gap-2 border-t-[1px] p-2 ">
