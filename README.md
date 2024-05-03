@@ -17,9 +17,8 @@ O FilmesTSO está hospedado e pode ser acessado online. Você pode experimentar 
 
 - React.js
 - React Router
+- Tailwind
 - API do The Movie Database (TMDb)
-- HTML
-- CSS
 
 ## 🚀 Como Usar
 
