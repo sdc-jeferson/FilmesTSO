@@ -4,7 +4,7 @@ FilmesTSO é um aplicativo web simples para visualização de informações sobr
 
 ## 🌐 Deploy
 
-O FilmesTSO está hospedado e pode ser acessado online. Você pode experimentar a versão online em [FilmesTSO](https://prime-flix-azure.vercel.app/).
+O FilmesTSO está hospedado e pode ser acessado online. Você pode experimentar a versão online em [FilmesTSO](https://filmes-tso.vercel.app/).
 
 ## 📽️ Funcionalidades
 
